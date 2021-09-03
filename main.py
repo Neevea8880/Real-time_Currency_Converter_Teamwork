@@ -9,7 +9,7 @@ root.geometry("800x500")
 frame1 = Frame(root, highlightbackground="black", highlightthickness=4,width=800, height=500, bd= 0)
 frame1.pack()
 
-photo = ImageTk.PhotoImage(Image.open("C:\\Users\\user\\PycharmProjects\\Real-time_Currency_converter\\pic.png"))
+photo = ImageTk.PhotoImage(Image.open("./pic.png"))
 img_label = Label(frame1,image=photo)
 img_label.pack()
 
